@@ -1,0 +1,6 @@
+export const fetchDronesAPI = 'http://192.168.1.100:5000/drones/'
+export const addDroneAPI = 'http://192.168.1.100:5000/drones/newdrone'
+export const flyDroneAPI = 'http://192.168.1.100:5000/drones/fly'
+export const deleteDroneAPI = 'http://192.168.1.100:5000/drones/delete'
+export const updateDroneAPI = 'http://192.168.1.100:5000/drones/update'
+export const weatherAPI = 'http://api.apixu.com/v1/current.json?key=b11a0e4077674697b6781343171602&q='

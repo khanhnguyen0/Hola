@@ -1,0 +1,36 @@
+{
+  "name": "drone_map_mockup",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "geolib": "^2.0.22",
+    "lodash": "^4.17.4",
+    "react": "15.4.2",
+    "react-native": "0.42.0",
+    "react-native-keyboard-spacer": "^0.3.1",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-maps": "^0.13.0",
+    "react-native-navigation": "^2.0.0-experimental.256",
+    "react-native-popup-dialog": "^0.7.22",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2",
+    "remote-redux-devtools": "^0.5.7"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
